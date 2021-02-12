@@ -1,13 +1,157 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #070707;
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/gilroy-bold.eot);
+    src: url(fonts/gilroy-bold.svg);
+    src: url(fonts/gilroy-bold.ttf);
+    src: url(fonts/gilroy-bold.woff);
+    src: url(fonts/gilroy-bold.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+.start{
+    margin-left: auto;
+    margin-right: auto;
+    width: 944px;
+    display: block;
+}
+.nav{
+    margin: 35px 0px 30px 0;
+    justify-content: space-between;
+}
+.nav-element{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Gilroy-Bold;
+    color: #828282;
+}
+.block1{
+    border-top: 1px solid #000;
+    padding-top: 40px;
+}
+.header{
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: #070707;
+    font-family: Gilroy-Bold;
+}
+.name{
+    font-size: 47px;
+    width: auto;
+}
+.old{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.lang{
+    transform: rotate(-90deg);
+    font-size: 20px;
+    width: auto;
+    height: 100%;
+    padding: 0px;
+    vertical-align: bottom;
+    color: #828282;
+    cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.lang-ru-active {
+    color: black;
+}
+.lang-en-active {
+    color: black;
+}
+
+.lang span:first-child:hover{
+    transform: scale(1.1);
+    color: black;
+    transition: 0.3s;
+}
+
+.lang span:last-child:hover {
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.block-info{
+    margin-bottom: 30px;
+}
+.img-html{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    transition: 0.5s;
+    box-shadow: 0 0 45px black;
+}
+
+.img-html:hover {
+    transition: 0.8s;
+    transform: scale(1.03);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.block2{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    color: #070707;
+    display: block;
+    background-color: #F6F6F6;;
+}
+
+.block2-one{
+    font-size: 34px;
+    line-height: 42px;
+    padding-top: 120px;
+}
+.block2-two{
+    font-size: 18px;
+    line-height: 22px;
+    width: 485px;
+    align-items: center;
+    margin: 18px auto 0 auto;
+    padding-bottom: 110px;
+}
+.block3{
+    margin-top: 90px;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    width: auto;
+    height: 100vh;
+    background: #1C1C1C;
+    color: #fff;
+}
+.skills{
+    padding-top: 25px;
+    font-size:50px;
+    border-bottom: 1px solid #FFFFFF;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.skill,.skill2{
+    margin: 120px 0px 0px 0px;
+    font-size: 30px;
+    font-family: Gilroy-Bold;
+}
+.skill2{
+    margin-top: 70px;
+}
+.blocks-skills{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.skill-text{
+    width: 25vw;
+    height: 60vh;
+    background: rgba(165, 161, 161, 0.41);
+    margin: 50px auto 0 auto;
 }
